@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+.navbar{
+    background-color: #333333;
+}
+.nav-link {
+    color: white !important;
+    font-family: sans-serif;
+}
+.offcanvas-body,.offcanvas-header{
+    background-color: #333333;
+    color: white;
+ 
+}
+
+#telefono {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff0000;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+
+#inicio {
+    background-color: #ffffff; /* Color naranja */
+    height: 100vh;
+    
+}
+#velocidad{
+    background-color: #7a7979; /* Color rojo oscuro */
+    height: 100vh;
+    font-size: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#alarmas {
+    background-color: #e44747; /* Color vino */
+    height: 100vh;
+}
+#status {
+    background-color: #581845; /* Color morado oscuro */
+    height: 100vh;
+}
+#contacto {
+    background-color: #355C7D; /* Color azul oscuro */
+    height: 100vh;
+}
+
+
+#anHtmlId {
+    text-align: center;
+    font-weight: bold;
+}
