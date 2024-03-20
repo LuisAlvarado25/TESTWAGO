@@ -23,3 +23,14 @@ onValue(starCountRef, (snapshot) => {
     console.log("An: " + anData);
 document.getElementById('anHtmlId').innerHTML = anData;
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    const offcanvasNavbar = document.getElementById('offcanvasNavbar');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            offcanvasNavbar.classList.remove('show');
+        });
+    });
+});
